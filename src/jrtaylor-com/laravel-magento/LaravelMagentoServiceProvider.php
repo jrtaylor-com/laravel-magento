@@ -31,7 +31,7 @@ class MageHelperServiceProvider extends ServiceProvider {
 	 */
 	public function register()
 	{
-		require_once($app['config']['laravel-magento.path_to_mage'];
+		require_once($app['config']['laravel-magento.path_to_mage']);
 	}
 
 	/**
